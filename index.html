@@ -10,7 +10,58 @@
 </head>
 <body>
     <div class="container">
-    Weather Wherever
+            <link rel="stylesheet" href="src/style.css">
+            <h1>
+                Weather Wherever
+            </h1>
+            <h2></h2>
+            <h3></h3>
+            <form id="search-city">
+                <input type="text" placeholder="Enter the city wherever you are..." autocomplete="off" autofocus="on"
+                    id="search-city-input" />
+            
+                <input type="submit" value="Search" />
+            </form>
+            
+            <div class="card mb-6">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="images/cloudsun.PNG" alt="cloudsun" width="400px">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h2 class="card-title">T O D A Y:</h2>
+                            <h2 class="card-text" id="todays-temp">18</h2><span class="degree">°C</span>
+                            <p class="card-text"><small class="text-muted">Cloudy with some sunshine.<br />Have a good day!</small>
+                            </p>
+                            <p class="card-text"><small class="text-muted">Chance of rain: 0%</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col">M O N D A Y<br /><img src="images/sun.png" alt="sunny" width=175px><br />S U N S H I N E<div
+                        class="temp">23°C</div>
+                </div>
+                <div class="col">T U E S D A Y<br /><img src="images/cloud.png" alt="cloudy" width=175px><br />C L O U D Y<div
+                        class="temp">17°C</div>
+                </div>
+                <div class="col">W E D N E S D A Y<br /><img src="images/cloud.PNG" alt="cloudy" width=175px><br />C L O U D Y<div
+                        class="temp">16°C</div>
+                </div>
+                <div class="col">T H U R S D A Y<br /><img src="images/rain.PNG" alt="rainy" width=175px><br />R A I N Y D A Y<div
+                        class="temp">15°C</div>
+                </div>
+                <div class="col">F R I D A Y<br /><img src="images/sun.PNG" alt="sunny" width=175px><br />S U N S H I N E<div
+                        class="temp">21°C</div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <p class="made">
+                made by kelly wiltshire
+            </p>
     <script src="src/java.js"></script>
     </div>
 </body>
