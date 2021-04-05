@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
             <link rel="stylesheet" href="src/style.css">
             <h1>
                 Weather Wherever
@@ -28,15 +28,25 @@
             <div class="card mb-6">
                 <div class="row g-0">
                     <div class="col-md-6">
-                        <img src="images/cloudsun.PNG" alt="cloudsun" width="400px">
+                        <img src="images/cloudsun.PNG" alt="cloudsun" width="300px">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
                             <h2 class="card-title">T O D A Y:</h2>
-                            <h2 class="card-text" id="todays-temp">18</h2><span class="degree">°C</span>
-                            <p class="card-text"><small class="text-muted">Cloudy with some sunshine.<br />Have a good day!</small>
-                            </p>
-                            <p class="card-text"><small class="text-muted">Chance of rain: 0%</small></p>
+                         
+                                       <h2 id="todays-temp"><div>
+                                            <span class="temperature-today" id="temperature">18</span><span class="units">
+                                                <a href="#" id="celsius-link">°C</a> |
+                                                <a href="#" id="fahrenheit-link">°F</a>
+                                            </span>
+                                        </div></h2>
+                                       <br />
+                            <ul>
+                            <li class="card-text">Description: <span id="description">Cloudy with sun</span></li>
+                            <li class="card-text">Humidity: <span id="humidity">30%</span></li>
+                            <li class="card-text">Wind: <span id="wind">8 km/h</span></li>
+                            <li>Have a good day!</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -62,6 +72,7 @@
             <br />
             <br />
             <p class="made">
+                <a href="https://github.com/kickdirt/weather-search" target="_blank">open source coded</a>
                 made by kelly wiltshire
             </p>
         </div>
