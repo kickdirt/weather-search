@@ -64,6 +64,10 @@ ul {
   text-align: center;
 }
 
+.min-temp {
+  opacity: 0.4;
+}
+
 .temp {
   font-weight: bolder;
   font-size: 15px;
