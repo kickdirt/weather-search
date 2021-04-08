@@ -58,6 +58,7 @@ dateElement.innerHTML = formatDate(currentTime);
            iconElement.setAttribute("alt", response.data.weather[0].description);
         }
 
+        
  
 
             
