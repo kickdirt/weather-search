@@ -66,9 +66,10 @@ ul {
 
 .min-temp {
   opacity: 0.4;
+  font-size: 15px;
 }
 
-.temp {
-  font-weight: bolder;
+.max-temp {
+  font-weight: bold;
   font-size: 15px;
 }
