@@ -64,12 +64,12 @@ ul {
   text-align: center;
 }
 
-.min-temp {
+.weather-forecast-temperature-min {
   opacity: 0.4;
   font-size: 15px;
 }
 
-.max-temp {
+.weather-forecast-temperature-max {
   font-weight: bold;
   font-size: 15px;
 }
