@@ -105,9 +105,7 @@ dateElement.innerHTML = formatDate(currentTime);
            getForecast(response.data.coord);
         }
 
-        
-
-        console.log(response.data.daily);
+        showCity("New York");
             
 
 

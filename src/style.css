@@ -1,5 +1,5 @@
 body {
-  background-color: #ffaec8;
+  background-color: #bff5e5;
   font-family: sans-serif;
   max-width: 60%;
   margin: 0 auto;
@@ -31,7 +31,7 @@ ul {
 }
 
 .card {
-  background-color: #ffaec8;
+  background-color: rgb(59, 59, 255);
   display: block;
   font-size: 20px;
 }
